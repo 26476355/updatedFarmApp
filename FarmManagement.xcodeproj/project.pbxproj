@@ -7,43 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000001 /* FarmManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000001; };
-		A10000002 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000002; };
-		A10000003 /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000003; };
-		A10000004 /* Livestock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000004; };
-		A10000005 /* Harvest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000005; };
-		A10000006 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000006; };
-		A10000007 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000007; };
-		A10000008 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000008; };
-		A10000009 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000009; };
-		A10000010 /* FieldsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010; };
-		A10000011 /* CropsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000011; };
-		A10000012 /* LivestockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000012; };
-		A10000013 /* HarvestsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000013; };
-		A10000014 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000014; };
-		A10000015 /* FinancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000015; };
-		A10000016 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000016; };
-		A10000017 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000017; };
+		4EE3579E2FA20F4B00D977BE /* FarmManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3579C2FA20F4B00D977BE /* FarmManagementApp.swift */; };
+		4EE3579F2FA20F4B00D977BE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3579D2FA20F4B00D977BE /* Theme.swift */; };
+		4EE357C42FA20F7C00D977BE /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357AB2FA20F7C00D977BE /* DashboardView.swift */; };
+		4EE357C52FA20F7C00D977BE /* FarmAdvisorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357AD2FA20F7C00D977BE /* FarmAdvisorView.swift */; };
+		4EE357C62FA20F7C00D977BE /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357BA2FA20F7C00D977BE /* CartView.swift */; };
+		4EE357C72FA20F7C00D977BE /* AdminFarmDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A02FA20F7C00D977BE /* AdminFarmDataView.swift */; };
+		4EE357C82FA20F7C00D977BE /* MarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357BB2FA20F7C00D977BE /* MarketplaceView.swift */; };
+		4EE357C92FA20F7C00D977BE /* FarmAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A52FA20F7C00D977BE /* FarmAnalyticsView.swift */; };
+		4EE357CA2FA20F7C00D977BE /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A72FA20F7C00D977BE /* AuthViews.swift */; };
+		4EE357CB2FA20F7C00D977BE /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357BD2FA20F7C00D977BE /* OrdersView.swift */; };
+		4EE357CC2FA20F7C00D977BE /* CropsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A92FA20F7C00D977BE /* CropsListView.swift */; };
+		4EE357CD2FA20F7C00D977BE /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A32FA20F7C00D977BE /* AlertsView.swift */; };
+		4EE357CE2FA20F7C00D977BE /* FieldsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357AF2FA20F7C00D977BE /* FieldsListView.swift */; };
+		4EE357CF2FA20F7C00D977BE /* AdminViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357A12FA20F7C00D977BE /* AdminViews.swift */; };
+		4EE357D02FA20F7C00D977BE /* FinancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357B22FA20F7C00D977BE /* FinancesView.swift */; };
+		4EE357D12FA20F7C00D977BE /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357BF2FA20F7C00D977BE /* SubscriptionView.swift */; };
+		4EE357D22FA20F7C00D977BE /* PlantRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357B02FA20F7C00D977BE /* PlantRecommendationView.swift */; };
+		4EE357D32FA20F7C00D977BE /* LivestockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357B82FA20F7C00D977BE /* LivestockListView.swift */; };
+		4EE357D42FA20F7C00D977BE /* HarvestsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357B42FA20F7C00D977BE /* HarvestsListView.swift */; };
+		4EE357D52FA20F7C00D977BE /* LeafScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357B62FA20F7C00D977BE /* LeafScannerView.swift */; };
+		4EE357D62FA20F7C00D977BE /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357C12FA20F7C00D977BE /* WeatherView.swift */; };
+		4EE357E52FA20FA900D977BE /* SoilKnowledgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357DC2FA20FA900D977BE /* SoilKnowledgeBase.swift */; };
+		4EE357E62FA20FA900D977BE /* AlertsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357DE2FA20FA900D977BE /* AlertsService.swift */; };
+		4EE357E72FA20FA900D977BE /* AnimalKnowledgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357D82FA20FA900D977BE /* AnimalKnowledgeBase.swift */; };
+		4EE357E82FA20FA900D977BE /* AnimalClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357D72FA20FA900D977BE /* AnimalClassifier.swift */; };
+		4EE357E92FA20FA900D977BE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357DF2FA20FA900D977BE /* AuthService.swift */; };
+		4EE357EA2FA20FA900D977BE /* MarketplaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357E22FA20FA900D977BE /* MarketplaceStore.swift */; };
+		4EE357EB2FA20FA900D977BE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357E12FA20FA900D977BE /* LocationService.swift */; };
+		4EE357EC2FA20FA900D977BE /* LeafClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357DA2FA20FA900D977BE /* LeafClassifier.swift */; };
+		4EE357ED2FA20FA900D977BE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357E02FA20FA900D977BE /* DataStore.swift */; };
+		4EE357EE2FA20FA900D977BE /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357E32FA20FA900D977BE /* WeatherService.swift */; };
+		4EE357EF2FA20FA900D977BE /* SoilClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357DB2FA20FA900D977BE /* SoilClassifier.swift */; };
+		4EE357F02FA20FA900D977BE /* DiseaseKnowledgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357D92FA20FA900D977BE /* DiseaseKnowledgeBase.swift */; };
+		4EE357F32FA20FDA00D977BE /* train_leaf_model.py in Resources */ = {isa = PBXBuildFile; fileRef = 4EE357F12FA20FDA00D977BE /* train_leaf_model.py */; };
+		4EE357FD2FA2101200D977BE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357FB2FA2101200D977BE /* Weather.swift */; };
+		4EE357FE2FA2101200D977BE /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357FA2FA2101200D977BE /* UserModels.swift */; };
+		4EE357FF2FA2101200D977BE /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357F52FA2101200D977BE /* Crop.swift */; };
+		4EE358002FA2101200D977BE /* Livestock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357F92FA2101200D977BE /* Livestock.swift */; };
+		4EE358012FA2101200D977BE /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357F72FA2101200D977BE /* Finance.swift */; };
+		4EE358022FA2101200D977BE /* Harvest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357F82FA2101200D977BE /* Harvest.swift */; };
+		4EE358032FA2101200D977BE /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE357F62FA2101200D977BE /* Field.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A20000001 /* FarmManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmManagementApp.swift; sourceTree = "<group>"; };
-		A20000002 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
-		A20000003 /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
-		A20000004 /* Livestock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livestock.swift; sourceTree = "<group>"; };
-		A20000005 /* Harvest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvest.swift; sourceTree = "<group>"; };
-		A20000006 /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
-		A20000007 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		A20000008 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		A20000009 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		A20000010 /* FieldsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsListView.swift; sourceTree = "<group>"; };
-		A20000011 /* CropsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsListView.swift; sourceTree = "<group>"; };
-		A20000012 /* LivestockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivestockListView.swift; sourceTree = "<group>"; };
-		A20000013 /* HarvestsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestsListView.swift; sourceTree = "<group>"; };
-		A20000014 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
-		A20000015 /* FinancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesView.swift; sourceTree = "<group>"; };
-		A20000016 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		A20000017 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4EE3579C2FA20F4B00D977BE /* FarmManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmManagementApp.swift; sourceTree = "<group>"; };
+		4EE3579D2FA20F4B00D977BE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4EE357A02FA20F7C00D977BE /* AdminFarmDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFarmDataView.swift; sourceTree = "<group>"; };
+		4EE357A12FA20F7C00D977BE /* AdminViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViews.swift; sourceTree = "<group>"; };
+		4EE357A32FA20F7C00D977BE /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		4EE357A52FA20F7C00D977BE /* FarmAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnalyticsView.swift; sourceTree = "<group>"; };
+		4EE357A72FA20F7C00D977BE /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		4EE357A92FA20F7C00D977BE /* CropsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsListView.swift; sourceTree = "<group>"; };
+		4EE357AB2FA20F7C00D977BE /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4EE357AD2FA20F7C00D977BE /* FarmAdvisorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAdvisorView.swift; sourceTree = "<group>"; };
+		4EE357AF2FA20F7C00D977BE /* FieldsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsListView.swift; sourceTree = "<group>"; };
+		4EE357B02FA20F7C00D977BE /* PlantRecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRecommendationView.swift; sourceTree = "<group>"; };
+		4EE357B22FA20F7C00D977BE /* FinancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesView.swift; sourceTree = "<group>"; };
+		4EE357B42FA20F7C00D977BE /* HarvestsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestsListView.swift; sourceTree = "<group>"; };
+		4EE357B62FA20F7C00D977BE /* LeafScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafScannerView.swift; sourceTree = "<group>"; };
+		4EE357B82FA20F7C00D977BE /* LivestockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivestockListView.swift; sourceTree = "<group>"; };
+		4EE357BA2FA20F7C00D977BE /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		4EE357BB2FA20F7C00D977BE /* MarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceView.swift; sourceTree = "<group>"; };
+		4EE357BD2FA20F7C00D977BE /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		4EE357BF2FA20F7C00D977BE /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		4EE357C12FA20F7C00D977BE /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		4EE357D72FA20FA900D977BE /* AnimalClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifier.swift; sourceTree = "<group>"; };
+		4EE357D82FA20FA900D977BE /* AnimalKnowledgeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalKnowledgeBase.swift; sourceTree = "<group>"; };
+		4EE357D92FA20FA900D977BE /* DiseaseKnowledgeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseKnowledgeBase.swift; sourceTree = "<group>"; };
+		4EE357DA2FA20FA900D977BE /* LeafClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafClassifier.swift; sourceTree = "<group>"; };
+		4EE357DB2FA20FA900D977BE /* SoilClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilClassifier.swift; sourceTree = "<group>"; };
+		4EE357DC2FA20FA900D977BE /* SoilKnowledgeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilKnowledgeBase.swift; sourceTree = "<group>"; };
+		4EE357DE2FA20FA900D977BE /* AlertsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsService.swift; sourceTree = "<group>"; };
+		4EE357DF2FA20FA900D977BE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4EE357E02FA20FA900D977BE /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		4EE357E12FA20FA900D977BE /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4EE357E22FA20FA900D977BE /* MarketplaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceStore.swift; sourceTree = "<group>"; };
+		4EE357E32FA20FA900D977BE /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		4EE357F12FA20FDA00D977BE /* train_leaf_model.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = train_leaf_model.py; sourceTree = "<group>"; };
+		4EE357F52FA2101200D977BE /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		4EE357F62FA2101200D977BE /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		4EE357F72FA2101200D977BE /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		4EE357F82FA2101200D977BE /* Harvest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvest.swift; sourceTree = "<group>"; };
+		4EE357F92FA2101200D977BE /* Livestock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livestock.swift; sourceTree = "<group>"; };
+		4EE357FA2FA2101200D977BE /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		4EE357FB2FA2101200D977BE /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		A30000001 /* FarmManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +106,216 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EE357A22FA20F7C00D977BE /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A02FA20F7C00D977BE /* AdminFarmDataView.swift */,
+				4EE357A12FA20F7C00D977BE /* AdminViews.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		4EE357A42FA20F7C00D977BE /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A32FA20F7C00D977BE /* AlertsView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		4EE357A62FA20F7C00D977BE /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A52FA20F7C00D977BE /* FarmAnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		4EE357A82FA20F7C00D977BE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A72FA20F7C00D977BE /* AuthViews.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4EE357AA2FA20F7C00D977BE /* Crops */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A92FA20F7C00D977BE /* CropsListView.swift */,
+			);
+			path = Crops;
+			sourceTree = "<group>";
+		};
+		4EE357AC2FA20F7C00D977BE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357AB2FA20F7C00D977BE /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4EE357AE2FA20F7C00D977BE /* FarmAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357AD2FA20F7C00D977BE /* FarmAdvisorView.swift */,
+			);
+			path = FarmAdvisor;
+			sourceTree = "<group>";
+		};
+		4EE357B12FA20F7C00D977BE /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357AF2FA20F7C00D977BE /* FieldsListView.swift */,
+				4EE357B02FA20F7C00D977BE /* PlantRecommendationView.swift */,
+			);
+			path = Fields;
+			sourceTree = "<group>";
+		};
+		4EE357B32FA20F7C00D977BE /* Finances */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357B22FA20F7C00D977BE /* FinancesView.swift */,
+			);
+			path = Finances;
+			sourceTree = "<group>";
+		};
+		4EE357B52FA20F7C00D977BE /* Harvests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357B42FA20F7C00D977BE /* HarvestsListView.swift */,
+			);
+			path = Harvests;
+			sourceTree = "<group>";
+		};
+		4EE357B72FA20F7C00D977BE /* LeafScanner */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357B62FA20F7C00D977BE /* LeafScannerView.swift */,
+			);
+			path = LeafScanner;
+			sourceTree = "<group>";
+		};
+		4EE357B92FA20F7C00D977BE /* Livestock */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357B82FA20F7C00D977BE /* LivestockListView.swift */,
+			);
+			path = Livestock;
+			sourceTree = "<group>";
+		};
+		4EE357BC2FA20F7C00D977BE /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357BA2FA20F7C00D977BE /* CartView.swift */,
+				4EE357BB2FA20F7C00D977BE /* MarketplaceView.swift */,
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		4EE357BE2FA20F7C00D977BE /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357BD2FA20F7C00D977BE /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		4EE357C02FA20F7C00D977BE /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357BF2FA20F7C00D977BE /* SubscriptionView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		4EE357C22FA20F7C00D977BE /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357C12FA20F7C00D977BE /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		4EE357C32FA20F7C00D977BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357A22FA20F7C00D977BE /* Admin */,
+				4EE357A42FA20F7C00D977BE /* Alerts */,
+				4EE357A62FA20F7C00D977BE /* Analytics */,
+				4EE357A82FA20F7C00D977BE /* Auth */,
+				4EE357AA2FA20F7C00D977BE /* Crops */,
+				4EE357AC2FA20F7C00D977BE /* Dashboard */,
+				4EE357AE2FA20F7C00D977BE /* FarmAdvisor */,
+				4EE357B12FA20F7C00D977BE /* Fields */,
+				4EE357B32FA20F7C00D977BE /* Finances */,
+				4EE357B52FA20F7C00D977BE /* Harvests */,
+				4EE357B72FA20F7C00D977BE /* LeafScanner */,
+				4EE357B92FA20F7C00D977BE /* Livestock */,
+				4EE357BC2FA20F7C00D977BE /* Marketplace */,
+				4EE357BE2FA20F7C00D977BE /* Orders */,
+				4EE357C02FA20F7C00D977BE /* Subscription */,
+				4EE357C22FA20F7C00D977BE /* Weather */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EE357DD2FA20FA900D977BE /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357D72FA20FA900D977BE /* AnimalClassifier.swift */,
+				4EE357D82FA20FA900D977BE /* AnimalKnowledgeBase.swift */,
+				4EE357D92FA20FA900D977BE /* DiseaseKnowledgeBase.swift */,
+				4EE357DA2FA20FA900D977BE /* LeafClassifier.swift */,
+				4EE357DB2FA20FA900D977BE /* SoilClassifier.swift */,
+				4EE357DC2FA20FA900D977BE /* SoilKnowledgeBase.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		4EE357E42FA20FA900D977BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357DD2FA20FA900D977BE /* ML */,
+				4EE357DE2FA20FA900D977BE /* AlertsService.swift */,
+				4EE357DF2FA20FA900D977BE /* AuthService.swift */,
+				4EE357E02FA20FA900D977BE /* DataStore.swift */,
+				4EE357E12FA20FA900D977BE /* LocationService.swift */,
+				4EE357E22FA20FA900D977BE /* MarketplaceStore.swift */,
+				4EE357E32FA20FA900D977BE /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4EE357F22FA20FDA00D977BE /* MLTraining */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357F12FA20FDA00D977BE /* train_leaf_model.py */,
+			);
+			path = MLTraining;
+			sourceTree = "<group>";
+		};
+		4EE357F42FA2100800D977BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4EE357FC2FA2101200D977BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EE357F52FA2101200D977BE /* Crop.swift */,
+				4EE357F62FA2101200D977BE /* Field.swift */,
+				4EE357F72FA2101200D977BE /* Finance.swift */,
+				4EE357F82FA2101200D977BE /* Harvest.swift */,
+				4EE357F92FA2101200D977BE /* Livestock.swift */,
+				4EE357FA2FA2101200D977BE /* UserModels.swift */,
+				4EE357FB2FA2101200D977BE /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A50000001 = {
 			isa = PBXGroup;
 			children = (
@@ -69,105 +327,15 @@
 		A50000002 /* FarmManagement */ = {
 			isa = PBXGroup;
 			children = (
-				A20000001 /* FarmManagementApp.swift */,
-				A20000016 /* Theme.swift */,
-				A50000003 /* Models */,
-				A50000004 /* Views */,
-				A50000005 /* Services */,
+				4EE357FC2FA2101200D977BE /* Models */,
+				4EE357F42FA2100800D977BE /* ViewModels */,
+				4EE357F22FA20FDA00D977BE /* MLTraining */,
+				4EE357E42FA20FA900D977BE /* Services */,
+				4EE357C32FA20F7C00D977BE /* Views */,
+				4EE3579C2FA20F4B00D977BE /* FarmManagementApp.swift */,
+				4EE3579D2FA20F4B00D977BE /* Theme.swift */,
 			);
 			path = FarmManagement;
-			sourceTree = "<group>";
-		};
-		A50000003 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A20000002 /* Field.swift */,
-				A20000003 /* Crop.swift */,
-				A20000004 /* Livestock.swift */,
-				A20000005 /* Harvest.swift */,
-				A20000006 /* Finance.swift */,
-				A20000007 /* Weather.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A50000004 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A50000016 /* Dashboard */,
-				A50000010 /* Fields */,
-				A50000011 /* Crops */,
-				A50000012 /* Livestock */,
-				A50000013 /* Harvests */,
-				A50000014 /* Weather */,
-				A50000015 /* Finances */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A50000016 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				A20000017 /* DashboardView.swift */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		A50000005 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A20000008 /* DataStore.swift */,
-				A20000009 /* WeatherService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A50000010 /* Fields */ = {
-			isa = PBXGroup;
-			children = (
-				A20000010 /* FieldsListView.swift */,
-			);
-			path = Fields;
-			sourceTree = "<group>";
-		};
-		A50000011 /* Crops */ = {
-			isa = PBXGroup;
-			children = (
-				A20000011 /* CropsListView.swift */,
-			);
-			path = Crops;
-			sourceTree = "<group>";
-		};
-		A50000012 /* Livestock */ = {
-			isa = PBXGroup;
-			children = (
-				A20000012 /* LivestockListView.swift */,
-			);
-			path = Livestock;
-			sourceTree = "<group>";
-		};
-		A50000013 /* Harvests */ = {
-			isa = PBXGroup;
-			children = (
-				A20000013 /* HarvestsListView.swift */,
-			);
-			path = Harvests;
-			sourceTree = "<group>";
-		};
-		A50000014 /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				A20000014 /* WeatherView.swift */,
-			);
-			path = Weather;
-			sourceTree = "<group>";
-		};
-		A50000015 /* Finances */ = {
-			isa = PBXGroup;
-			children = (
-				A20000015 /* FinancesView.swift */,
-			);
-			path = Finances;
 			sourceTree = "<group>";
 		};
 		A50000099 /* Products */ = {
@@ -236,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE357F32FA20FDA00D977BE /* train_leaf_model.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,23 +415,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000001 /* FarmManagementApp.swift in Sources */,
-				A10000002 /* Field.swift in Sources */,
-				A10000003 /* Crop.swift in Sources */,
-				A10000004 /* Livestock.swift in Sources */,
-				A10000005 /* Harvest.swift in Sources */,
-				A10000006 /* Finance.swift in Sources */,
-				A10000007 /* Weather.swift in Sources */,
-				A10000008 /* DataStore.swift in Sources */,
-				A10000009 /* WeatherService.swift in Sources */,
-				A10000010 /* FieldsListView.swift in Sources */,
-				A10000011 /* CropsListView.swift in Sources */,
-				A10000012 /* LivestockListView.swift in Sources */,
-				A10000013 /* HarvestsListView.swift in Sources */,
-				A10000014 /* WeatherView.swift in Sources */,
-				A10000015 /* FinancesView.swift in Sources */,
-				A10000016 /* Theme.swift in Sources */,
-				A10000017 /* DashboardView.swift in Sources */,
+				4EE3579E2FA20F4B00D977BE /* FarmManagementApp.swift in Sources */,
+				4EE357C42FA20F7C00D977BE /* DashboardView.swift in Sources */,
+				4EE357C52FA20F7C00D977BE /* FarmAdvisorView.swift in Sources */,
+				4EE357FD2FA2101200D977BE /* Weather.swift in Sources */,
+				4EE357FE2FA2101200D977BE /* UserModels.swift in Sources */,
+				4EE357FF2FA2101200D977BE /* Crop.swift in Sources */,
+				4EE358002FA2101200D977BE /* Livestock.swift in Sources */,
+				4EE358012FA2101200D977BE /* Finance.swift in Sources */,
+				4EE358022FA2101200D977BE /* Harvest.swift in Sources */,
+				4EE358032FA2101200D977BE /* Field.swift in Sources */,
+				4EE357C62FA20F7C00D977BE /* CartView.swift in Sources */,
+				4EE357C72FA20F7C00D977BE /* AdminFarmDataView.swift in Sources */,
+				4EE357C82FA20F7C00D977BE /* MarketplaceView.swift in Sources */,
+				4EE357C92FA20F7C00D977BE /* FarmAnalyticsView.swift in Sources */,
+				4EE357CA2FA20F7C00D977BE /* AuthViews.swift in Sources */,
+				4EE357CB2FA20F7C00D977BE /* OrdersView.swift in Sources */,
+				4EE357CC2FA20F7C00D977BE /* CropsListView.swift in Sources */,
+				4EE357CD2FA20F7C00D977BE /* AlertsView.swift in Sources */,
+				4EE357CE2FA20F7C00D977BE /* FieldsListView.swift in Sources */,
+				4EE357CF2FA20F7C00D977BE /* AdminViews.swift in Sources */,
+				4EE357D02FA20F7C00D977BE /* FinancesView.swift in Sources */,
+				4EE357D12FA20F7C00D977BE /* SubscriptionView.swift in Sources */,
+				4EE357D22FA20F7C00D977BE /* PlantRecommendationView.swift in Sources */,
+				4EE357E52FA20FA900D977BE /* SoilKnowledgeBase.swift in Sources */,
+				4EE357E62FA20FA900D977BE /* AlertsService.swift in Sources */,
+				4EE357E72FA20FA900D977BE /* AnimalKnowledgeBase.swift in Sources */,
+				4EE357E82FA20FA900D977BE /* AnimalClassifier.swift in Sources */,
+				4EE357E92FA20FA900D977BE /* AuthService.swift in Sources */,
+				4EE357EA2FA20FA900D977BE /* MarketplaceStore.swift in Sources */,
+				4EE357EB2FA20FA900D977BE /* LocationService.swift in Sources */,
+				4EE357EC2FA20FA900D977BE /* LeafClassifier.swift in Sources */,
+				4EE357ED2FA20FA900D977BE /* DataStore.swift in Sources */,
+				4EE357EE2FA20FA900D977BE /* WeatherService.swift in Sources */,
+				4EE357EF2FA20FA900D977BE /* SoilClassifier.swift in Sources */,
+				4EE357F02FA20FA900D977BE /* DiseaseKnowledgeBase.swift in Sources */,
+				4EE357D32FA20F7C00D977BE /* LivestockListView.swift in Sources */,
+				4EE357D42FA20F7C00D977BE /* HarvestsListView.swift in Sources */,
+				4EE357D52FA20F7C00D977BE /* LeafScannerView.swift in Sources */,
+				4EE357D62FA20F7C00D977BE /* WeatherView.swift in Sources */,
+				4EE3579F2FA20F4B00D977BE /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +577,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = A00000001 /* Project object */;
 }
