@@ -5,7 +5,7 @@ class WeatherService: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    private let apiKey = "<5b40ba47cb9384dd5a533aede5dde0a0>"
+    private let apiKey = ""
 
     func fetchWeather(for city: String) {
         guard let encoded = city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
